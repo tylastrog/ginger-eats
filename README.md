@@ -4,7 +4,7 @@ Ginger Eats was a little website I made during COVID-19 out of pure boredom and 
 
 ## Installation
 
-Requires [Node.js](https://nodejs.org/en/) to run as well as [express](https://expressjs.com/) and [nodemailer](https://nodemailer.com/about/)
+Requires [Node.js](https://nodejs.org/en/) to run as well as [express](https://expressjs.com/) and [nodemailer](https://nodemailer.com/about/).
 
 ```bash
 $ npm install express --save
