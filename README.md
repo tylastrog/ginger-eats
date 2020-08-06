@@ -1,4 +1,4 @@
-![Ginger Eats Logo](https://github.com/tylastrog/ginger-eats/public/img/logo.png)
+![Ginger Eats Logo](https://raw.githubusercontent.com/tylastrog/ginger-eats/master/public/img/logo.png?token=AE33P6DKWSUYEXRTMNYSDW27FSB6I)
 
 Ginger Eats was a little website I made during COVID-19 out of pure boredom and the desire to teach myself Node.js!
 
