@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Uber;
+    src: url("../fonts/Uber.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Uber;
+}
+
+.header {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    padding-bottom: 3%;
+    padding-top: 1.5%;
+}
+
+.header img {
+    width: 10%;
+    float: left;
+}
+
+div#nav {
+    float: right;
+}
+
+div#nav ul {
+    display: inline-block;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    display: block;
+    font-size: 19px;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.order {
+    background-color: #fad6b5;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+}
+
+.order h1 {
+    font-size: 200%;
+    font-weight: normal;
+    text-align: center;
+}
+
+.order h2 {
+    font-size: 100%;
+    font-weight: normal;
+    text-align: left;
+}
+
+.order h3 {
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.order h3 a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.order-window {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    padding-left: 25%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+input[type=text],
+select,
+textarea {
+    display: inline-block;
+    width: 400px;
+    margin-left: 1%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 1%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+hr {
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 20%;
+    max-width: 100px;
+    margin: 0px;
+}
+
+footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.prius {
+    width: 10%;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Uber;
+}
+
+button:hover {
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Uber;
+}

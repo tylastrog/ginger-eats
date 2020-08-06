@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GingerEats | Food Delivered When I Feel Like It™</title>
+    <meta name="description" content="GingerEats: Food Delivered When I Feel Like It™">
+    <meta name="author" content="GingerEats">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script defer src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script type="text/javascript">
+        if (screen.width <= 699) {
+            document.location = "/mobile/";
+        }
+
+        if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+            location.replace("/mobile/");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="/"><img src="img/logo.png"></a>
+        <div id="nav">
+            <ul>
+                <li><a class="active" href="about/">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="order">
+        <h1>Your favorite food, delivered by a ginger.</h1>
+        <h3>venmo: @ ― <a href="https://www.paypal.me/">paypal.me/</a></h3>
+        <center>
+            <div class="order-window">
+                <form action="/public" method="POST">
+                    <h2 id="name">Name</h2><input type="text" name="name" placeholder="Ron Burgundy"><br/>
+                    <h2 id="number">Phone Number / Snapchat / Discord</h2><input type="text" name="number" placeholder="(555) 555-5555 / snapchat / discord#1337"><br/>
+                    <h2 id="address">Address</h2><input type="text" name="address" placeholder="69420 Programmer Lane. Los Angeles, CA. 99999"><br/>
+                    <h2 id="restaurant">Restaurant</h2><input type="text" name="restaurant" placeholder="McDonald's"><br/>
+                    <h2 id="order">Order*</h2><input type="text" name="order" placeholder="(2) McChickens™, (1) Oreo McFlurry™, (1) Large Sprite™"><br/><br/>
+                    <button type="submit">Submit Order</button><br/><br/>
+                </form>
+                <hr>
+                <h2>* Delivery fee is $2.</h2>
+            </div>
+            <img class="prius" src="img/prius.png">
+        </center>
+    </div>
+    <footer>
+        Copyright 2020 &copy; Ginger Eats. All rights reserved.
+    </footer>
+</body>
+
+</html>
